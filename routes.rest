@@ -1,1 +1,11 @@
-GET http://localhost:3000/getCommentsById
+GET http://localhost:3001/getUsers
+
+###
+
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+    "email":"ali@gmail.com",
+    "password":"123456"
+}
