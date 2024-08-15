@@ -21,6 +21,6 @@ describe("GET /getCommentsByd", () => {
       postId: 9999,
     });
 
-    expect(res.status).toBe(400);
+    expect(res.status).toBe(404);
   });
 });
